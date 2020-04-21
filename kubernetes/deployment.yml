@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: customer
+  name: customer1
   labels:
-    app: customer
+    app: customer1
 spec:
   replicas: 1
   selector:
@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: customer
+        app: customer1
     spec:
       containers:
         - name: customer
