@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: customer
-          image: user29acr1/customer:latest
+          image: user29acr1.azurecr.io/customer:latest
           ports:
             - containerPort: 8080
           readinessProbe:
