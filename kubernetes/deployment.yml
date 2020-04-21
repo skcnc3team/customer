@@ -15,7 +15,7 @@ spec:
         app: customer1
     spec:
       containers:
-        - name: customer
+        - name: customer1
           image: username/customer:latest
           ports:
             - containerPort: 8080
